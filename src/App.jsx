@@ -9,6 +9,7 @@ import LogIn from './pages/LogIn'
 import LevelPage from './pages/levels/LevelPage'
 import ChapterPage from './pages/ChapterPage'
 import ReadPage from './pages/levels/ReadPage'
+import LeaderBoards from './pages/LeaderBoards'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
         <Route path='/chapters' element={<ChapterPage/>} />
         <Route path='/readpage' element={<ReadPage/>} />
         <Route path='/levelpage' element={<LevelPage/>} />
+        <Route path='/leaderboard' element={<LeaderBoards/>} />
 
       </Routes>
 
